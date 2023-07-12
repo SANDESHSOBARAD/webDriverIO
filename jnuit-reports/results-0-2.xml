@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Demo Tests" timestamp="2023-07-11T23:03:01" time="3.84" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo Tests"/>
+      <property name="capabilities" value="chrome.114_0_5735_198.macosx"/>
+      <property name="file" value="file://./test/specs/test1.spec.js"/>
+    </properties>
+    <testcase classname="chrome.114_0_5735_198.macosx.Demo_Tests" name="My first test" time="3.837">
+      <system-out><![CDATA[
+COMMAND: POST /session/b66e58ca4c668064c3353724fd6928c1/element - {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/b66e58ca4c668064c3353724fd6928c1/url - {"url":"https://google.com/"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/b66e58ca4c668064c3353724fd6928c1/elements - {"using":"css selector","value":"[name=\"q\"]"}
+RESULT: {"url":"https://google.com/"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/b66e58ca4c668064c3353724fd6928c1/element - {"using":"css selector","value":"[name=\"q\"]"}
+RESULT: {"using":"css selector","value":"[name=\"q\"]"}
+COMMAND: POST /session/b66e58ca4c668064c3353724fd6928c1/element/5F242E8170BCCC916F499BB897A937BD_element_4/clear - {}
+RESULT: {}
+COMMAND: POST /session/b66e58ca4c668064c3353724fd6928c1/element/5F242E8170BCCC916F499BB897A937BD_element_4/value - {"text":"WebdriverIO"}
+RESULT: {"text":"WebdriverIO"}
+COMMAND: POST /session/b66e58ca4c668064c3353724fd6928c1/actions - {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/b66e58ca4c668064c3353724fd6928c1 - {}
+RESULT: {"actions":[{"id":"action1","type":"key","parameters":{},"actions":[{"type":"keyDown","value":""},{"type":"pause","duration":10},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/b66e58ca4c668064c3353724fd6928c1/actions - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Demo Test" timestamp="2023-07-11T23:03:02" time="2.059" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Demo Test"/>
+      <property name="capabilities" value="chrome.114_0_5735_198.macosx"/>
+      <property name="file" value="file://./test/specs/login.spec.js"/>
+    </properties>
+    <testcase classname="chrome.114_0_5735_198.macosx.Demo_Test" name="Login Test" time="2.058">
+      <system-out><![CDATA[
+COMMAND: POST /session/286936c5c399a0077d3855cac995fce4/element - {"using":"css selector","value":"#username"}
+COMMAND: POST /session/286936c5c399a0077d3855cac995fce4/url - {"url":"https://the-internet.herokuapp.com/login"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/286936c5c399a0077d3855cac995fce4/elements - {"using":"css selector","value":"#username"}
+RESULT: {"url":"https://the-internet.herokuapp.com/login"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/286936c5c399a0077d3855cac995fce4/element - {"using":"css selector","value":"#username"}
+RESULT: {"using":"css selector","value":"#username"}
+COMMAND: POST /session/286936c5c399a0077d3855cac995fce4/element/6FC6586FAB55307AB982FEC967FFAD1C_element_6/clear - {}
+RESULT: {}
+COMMAND: POST /session/286936c5c399a0077d3855cac995fce4/element/6FC6586FAB55307AB982FEC967FFAD1C_element_6/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/286936c5c399a0077d3855cac995fce4/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/286936c5c399a0077d3855cac995fce4/element/6FC6586FAB55307AB982FEC967FFAD1C_element_3/clear - {}
+RESULT: {}
+COMMAND: POST /session/286936c5c399a0077d3855cac995fce4/element/6FC6586FAB55307AB982FEC967FFAD1C_element_3/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/286936c5c399a0077d3855cac995fce4/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/286936c5c399a0077d3855cac995fce4/element/6FC6586FAB55307AB982FEC967FFAD1C_element_8/click - {}
+RESULT: {}
+COMMAND: POST /session/286936c5c399a0077d3855cac995fce4/element - {"using":"css selector","value":"#flash"}
+RESULT: {"using":"css selector","value":"#flash"}
+COMMAND: GET /session/286936c5c399a0077d3855cac995fce4/element/2C6336143531E5F3A3179D3FB666A8B2_element_11/text - {}
+RESULT: {}
+COMMAND: DELETE /session/286936c5c399a0077d3855cac995fce4 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
