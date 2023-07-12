@@ -11,7 +11,7 @@ describe('Demo Tests', () => {
         //await $('[name="btnK"]').click()
         browser.keys('Enter')
 
-        browser.pause(6000)
+        browser.pause(4000)
 
     })
 })
